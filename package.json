@@ -1,0 +1,25 @@
+{
+  "name": "mobiletextapp",
+  "version": "1.0.0",
+  "description": "A learning-friendly multi-tap mobile phone keypad app.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run typecheck && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/keypad.test.ts"
+  },
+  "keywords": [
+    "typescript",
+    "keypad",
+    "multi-tap"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8"
+  }
+}
